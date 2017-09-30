@@ -146,7 +146,7 @@ body {
 /*Flex stuff*/
 .flex-container {
     display: -webkit-flex;
-    display: flex;.
+    display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: flex-start;
