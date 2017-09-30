@@ -1,4 +1,5 @@
-var cards = ['home', 'about', 'leistungen', 'projekte', 'kontakt']
+/* single-page
+ * var cards = ['home', 'about', 'leistungen', 'projekte', 'kontakt']
 function chooseCard(cardId) {
     var theCard = document.getElementById(cardId).getAttribute("href");
     var sectionId = theCard.substring(1);
@@ -11,7 +12,7 @@ function chooseCard(cardId) {
         }
     }
     //document.getElementById(cardId).href = '#top';
-}
+}*/
 
 
 
