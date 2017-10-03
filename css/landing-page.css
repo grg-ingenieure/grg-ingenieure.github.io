@@ -120,6 +120,27 @@ body {
     font-size: 2em;
 }
 
+.about-photo {
+    background-image: url("../img/about.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.section-heading-about-title {
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.about-paragraph {
+    line-height: 1.5;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: justify;
+}
+
 .section-heading-spacer {
     float: left;
     width: 200px;
@@ -165,6 +186,7 @@ body {
     background-color: cornflowerblue;
     width: 100px;
     height: 100px;*/
+    width: 200px;
     min-width: 150px;
     margin: 80px;
 }
