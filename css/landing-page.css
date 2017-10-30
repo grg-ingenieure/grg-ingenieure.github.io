@@ -190,6 +190,9 @@ body {
     min-width: 150px;
     margin: 80px;
 }
+.team-flex {
+    margin: 10px; /*good override*/
+}
 /*https://codepen.io/nxworld/pen/ZYNOBZ*/
 .flex-item img {
     -webkit-transform: scale(1);
@@ -217,8 +220,17 @@ body {
     width: 220px;
     min-width: 150px;
     margin: 80px;
+    max-height: 150px;
     /*background: red;*/
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
 }
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg);  }  }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg);  }  }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg);  }  }
+
 .b, .c {
     flex: 0 0 50%;
     width: 220px;
