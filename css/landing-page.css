@@ -261,6 +261,23 @@ body {
     text-align: center;
 }
 
+/*Flex project stuff*/
+.flex-project-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgrey;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.flex-project-item {
+    background-color: cornflowerblue;
+    width: 30%;
+    margin: 5px;
+}
+
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
