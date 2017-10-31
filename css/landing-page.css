@@ -26,6 +26,12 @@ h6 {
     padding-bottom: 50px;
 }
 
+.leistung-logo {
+    width: 150px; /*override*/
+    padding-top: 0px; /*override*/
+    float: right;
+}
+
 .intro-header {
     padding-top: 20px; /*instead of 50px*/
     padding-bottom: 20px; /*instead of 50px*/
