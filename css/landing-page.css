@@ -125,20 +125,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    height: 600px;
 }
 
 .section-heading-about-title {
     margin-bottom: 15px;
     text-align: center;
     font-weight: 500;
-    font-size: 2em;
+    font-size: 1.8em;
+    text-shadow:#dcdcdc 0.5px 0.5px;
 }
 
 .about-paragraph {
     line-height: 1.5;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: 500;
     text-align: justify;
+    text-shadow:#dcdcdc 0.5px 0.5px;
 }
 
 .section-heading-spacer {
@@ -266,18 +269,57 @@ body {
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
-    background-color: lightgrey;
+    /*background-color: lightgrey;*/
     justify-content: center;
     align-content: center;
     text-align: center;
 }
 
 .flex-project-item {
-    background-color: cornflowerblue;
+    /*background-color: cornflowerblue;*/
     width: 30%;
     margin: 5px;
+    position: relative;
 }
 
+.flex-project-item img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    display: block;
+    margin: 5px;
+    width: 320px;
+    position: relative;
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.project-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #5bc0de;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.333333;
+    padding: 10px 16px;
+    cursor: pointer;
+    border: 2px solid #46b8da;
+    border-radius: 6px;
+}
+
+.project-title:hover {
+    background-color: #46b8da;
+    font-size: 18px;
+}
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;

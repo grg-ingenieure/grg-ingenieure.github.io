@@ -156,6 +156,7 @@
     <div id="team">
     <section class="content-section-b">
     <h3 class="section-heading-title">Team</h3>
+    <br>
     <!-- https://stackoverflow.com/questions/29762979/css-for-one-column-two-rows-with-siblings-with-flexbox-like-the-flag-of-benin-->
     <div class="flex-container">
         <div class="flex-item team-flex">
@@ -198,7 +199,7 @@
     <div id="mitarbeiter">
     <section class="content-section-a">
     <h3 class="section-heading-title">Mitarbeiter</h3>
-
+    <br>
     <h4 class="section-heading-team-title" id="consulting">Consulting</h4>
     <div class="flex-container">
         <div class="flex-item">
@@ -637,16 +638,65 @@
     <h3 class="section-heading-title">Projekte</h3>
     <div class="container">
         <div class="flex-project-container">
-            <div class="flex-project-item"><img src="img/bild1.jpg" width="300px" display="inline-block" alt="">flex item 1</div>
-            <div class="flex-project-item"><img src="img/bild1.jpg" width="300px" alt="">flex item 1</div>
-            <div class="flex-project-item"><img src="img/bild1.jpg" width="300px" alt="">flex item 1</div>
-            <div class="flex-project-item"><img src="img/bild1.jpg" width="300px" alt="">flex item 1</div>
-            <div class="flex-project-item"><img src="img/bild1.jpg" width="300px" alt="">flex item 1</div>
-            <div class="flex-project-item"><img src="img/bild1.jpg" width="300px" alt="">flex item 1</div>
-            <div class="flex-project-item"><img src="img/bild1.jpg" width="300px" alt="">flex item 1</div>
-            <div class="flex-project-item"><img src="img/bild1.jpg" width="300px" alt="">flex item 1</div>
-            <div class="flex-project-item"><img src="img/bild1.jpg" width="300px" alt="">flex item 1</div>
+            <div class="flex-project-item">
+                <img src="img/projects/bild1.jpg" alt="">
+                <button class="project-title" data-toggle="modal" data-target="#myModal">zur Info</button>
+            </div>
+            <div class="flex-project-item">
+                <img src="img/projects/bild2.jpg" alt="">
+                <div class="project-title">zur Info</div>
+            </div>
+            <div class="flex-project-item">
+                <img src="img/projects/bild3.jpg" alt="">
+                <div class="project-title">zur Info</div>
+            </div>
+            <div class="flex-project-item">
+                <img src="img/projects/bild4.jpg" alt="">
+                <div class="project-title">zur Info</div>
+
+            </div>
+            <div class="flex-project-item">
+                <img src="img/projects/bild5.jpg" alt="">
+                <div class="project-title">zur Info</div>
+            </div>
+            <div class="flex-project-item">
+                <img src="img/projects/bild6.jpg" alt="">
+                <div class="project-title">zur Info</div>
+            </div>
+            <div class="flex-project-item">
+                <img src="img/projects/bild7.jpg" alt="">
+                <div class="project-title">zur Info</div>
+            </div>
+            <div class="flex-project-item">
+                <img src="img/projects/bild8.jpg" alt="">
+                <div class="project-title">zur Info</div>
+            </div>
+            <div class="flex-project-item">
+                <img src="img/projects/bild9.jpg" alt="">
+                <div class="project-title">zur Info</div>
+            </div>
         </div>
+
+
+    </div>
+        <!-- Modal 1 -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+            <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Modal Header</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Some text in the modal.</p>
+                    </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
     </div>
     </section>
     </div>
