@@ -20,6 +20,10 @@
     .navbar-toggler {
         z-index: 1;
     }
+    #map {
+        height: 300px;
+        width: 500px;
+    }
     @media (max-width: 576px) {
         nav > .container {
             width: 100%;
@@ -610,7 +614,6 @@
             </div>
         </div>
         <!-- /.container -->
-     
     </section>
 
 
@@ -682,15 +685,24 @@
     </div>
     </section>
     </div>
-    <div id="kontakt"></div>
+    <div id="kontakt">
     <section class="content-section-b">
-    <h3 class="section-heading-title">Kontakt</h3>
-    <p>partners, download pdfs...</p>
-
+        <h3 class="section-heading-title">Kontakt</h3><br>
     <div class="container">
-    <div class="row">
-
-    </div>
+        <div class="row">
+            <div class="col-lg-6 push-lg-6">
+                <h5>GRG Ingenieure AG</h5>
+                <p>Keltenweg 31<br>
+                CH-4460 Gelterkinden<br>
+                Tel.: +41 61 985 89 89<br>
+                Fax: +41 61 985 89 88<br>
+                <p>partners, download pdfs...</p>
+                <p>Haftungshinweis: Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschliesslich deren Betreiber verantwort. blabla</p>
+            </div>
+            <div class="col-lg-6 pull-lg-6">
+                <div id="map">
+            </div>
+        </div>
     </div>
     </section>
     <aside class="banner">
@@ -757,5 +769,7 @@
     <script src="script.js"></script>
 
 </body>
-
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD538DlmthY2Dr5R4aoxauvcgPdXZSyxOk&callback=initMap">
+</script>
 </html>
